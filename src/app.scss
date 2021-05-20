@@ -1,0 +1,38 @@
+$colorOne: rgb(34, 186, 4);
+$colorTwo: rgb(223, 226, 34);
+$fontBig: 50px;
+$fontSmall: 12px;
+
+body {
+    text-align: center;
+}
+
+h1
+{
+    color: $colorTwo;
+    font-size: $fontBig;
+    padding: 10px;
+}
+.paragrafo {
+    color: $colorOne;
+    font-size: $fontSmall;
+    padding: 10px;
+}
+
+a {
+    color: $colorOne;
+    font-size: $fontBig;
+    padding: 10px;
+}
+
+button:hover {
+    color: $colorOne;
+    font-size: $fontSmall;
+    padding: 10px;
+
+}
+
+.border-bottom {
+    border-bottom: solid 2px $colorTwo;
+    padding: 10px;
+}
